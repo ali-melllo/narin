@@ -517,7 +517,7 @@ export default function Home() {
           <p className="mt-5 pr-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi epudiandae raesentium optio, eaque rerum!</p>
         </div>
         <div className="w-3/12 gap-y-3 flex flex-col items-start">
-          <p className="font-bold text-2xl">Important Links</p>
+          <p className="font-bold text-2xl mt-3">Important Links</p>
           <div className="flex gap-x-2 mt-16 items-center">
             <Image
               src={'/images/right-arrow.png'}
@@ -544,7 +544,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-3/12 flex flex-col gap-y-3 items-start">
-          <p className="font-bold text-2xl">Contact Details</p>
+          <p className="font-bold text-2xl mt-3">Contact Details</p>
           <div className="flex gap-x-2 mt-16 items-center">
             <Image
               src={'/images/location.png'}
