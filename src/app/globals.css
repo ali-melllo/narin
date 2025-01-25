@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Yekan";
+  src: url("../../public/fonts/Yekan.ttf");
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Yekan";
+}
